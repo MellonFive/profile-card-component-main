@@ -8,20 +8,36 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+body .svg-top {
+    position: absolute;
+    top: -80%;
+    left: -20%;
+}
+
+body .svg-bottom {
+    position: fixed;
+    bottom: -90%;
+    right: -20%;
+}
+
 main {
+    border: 1px solid red;
+    z-index: 9999;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid red;
     width: 25%;
-    height: 45%;
+    height: 52%;
+    border-radius: 1rem;
 }
 
 main > .writeback {
-    background-color: #FFF;
+    background-color: #000;
     width: 100%;
-    height: 40%;
+    height: 45%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 main > .writeback > img {
@@ -31,4 +47,26 @@ main > .writeback > img {
     transform: translate(-50%, -15%);
     border: 5px solid #FFF;
     border-radius: 5rem;
+}
+
+main > .background {
+    width: 100%;
+    margin-top: -1.9rem;
+    background-color: #FFF;
+    height: 65%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main > .background > .name {
+    border: 2px solid blue;
+    padding-top: 3.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+main > .background > .name > span {
+    font-weight: 400;
 }
