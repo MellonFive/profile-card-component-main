@@ -37,6 +37,7 @@ main > .writeback {
     height: 45%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    background-image: url(../images/bg-pattern-top.svg);
 }
 
 main > .writeback > img {
