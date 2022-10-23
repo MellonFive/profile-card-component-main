@@ -32,7 +32,7 @@ main {
 }
 
 main > .writeback {
-    background-color: #000;
+    background-color: hsl(185, 75%, 50%);
     width: 100%;
     height: 45%;
     border-top-left-radius: 1rem;
@@ -71,30 +71,42 @@ main > .background > .name > span {
     color: hsl(0, 0%, 59%);
     width: 100%;
     font-weight: 400;
+    
 }
 
 main > .background .live {
-    margin-top: .5rem;
+    margin-top: .7rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
     color: hsl(0, 0%, 59%);
+}
+
+hr {
+    margin-top: 1.5rem;
 }
 
 main .description {
-    border: 1px solid blue;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 1.7rem;
 }
 
 main .description .number {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    text-align: center;
     font-weight: 700;
-    color: hsl(0, 0%, 59%);
+    color: hsl(229, 23%, 23%);
     font-family: 'Kumbh Sans', sans-serif;
 
 }
 
 main .description .item {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top: .5rem;
+    color: hsl(0, 0%, 59%);
     text-align: center;
+    letter-spacing: 2px;
 }
