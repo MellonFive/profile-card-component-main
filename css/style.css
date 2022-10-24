@@ -9,7 +9,7 @@ body {
 }
 
 body .svg-top {
-    position: absolute;
+    position: fixed;
     top: -80%;
     left: -20%;
 }
@@ -37,7 +37,7 @@ main > .writeback {
     height: 45%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url(../images/bg-pattern-top.svg);
+    background-image: url(../images/bg-pattern-card.svg);
 }
 
 main > .writeback > img {
@@ -90,7 +90,7 @@ hr {
 main .description {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
 }
 
 main .description .number {
@@ -99,7 +99,6 @@ main .description .number {
     font-weight: 700;
     color: hsl(229, 23%, 23%);
     font-family: 'Kumbh Sans', sans-serif;
-
 }
 
 main .description .item {
@@ -109,5 +108,5 @@ main .description .item {
     margin-top: .5rem;
     color: hsl(0, 0%, 59%);
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
